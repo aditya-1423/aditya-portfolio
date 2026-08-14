@@ -64,14 +64,14 @@ function Hero() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/aditya-verma-884734429"
               aria-label="LinkedIn"
             >
               in
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/_aditya_verma._23?igsh=MXVqaGR6M3Fvcm5teg=="
               aria-label="Instagram"
             >
               IG

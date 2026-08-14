@@ -49,7 +49,7 @@ const Contact = () => {
 
               <div className="contact-link-text">
                 <span>Email</span>
-                <strong>your@email.com</strong>
+                <strong>adityaverma1325@gmail.com</strong>
               </div>
 
               <div className="contact-link-arrow">↗</div>
@@ -57,7 +57,7 @@ const Contact = () => {
 
             {/* LINKEDIN */}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/aditya-verma-884734429"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -74,7 +74,7 @@ const Contact = () => {
 
             {/* GITHUB */}
             <a
-              href="#"
+              href="https://github.com/aditya-1423"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"

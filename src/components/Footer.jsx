@@ -39,7 +39,7 @@ const Footer = () => {
             <h4>Connect</h4>
 
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/_aditya_verma._23?igsh=MXVqaGR6M3Fvcm5teg=="
               target="_blank"
               rel="noreferrer"
             >
@@ -48,7 +48,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/aditya-verma-884734429"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,7 +57,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/aditya-1423"
               target="_blank"
               rel="noreferrer"
             >
@@ -65,7 +65,7 @@ const Footer = () => {
               <span>↗</span>
             </a>
 
-            <a href="mailto:your@email.com">
+            <a href="adityaverma1325@gmail.com">
               Email
               <span>↗</span>
             </a>
