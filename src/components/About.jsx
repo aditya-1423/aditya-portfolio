@@ -10,7 +10,7 @@ const About = () => {
 
           <div className="about-image-card">
            <img
-  src={`${import.meta.env.BASE_URL}src/aditya.jpeg`}
+  src={`${import.meta.env.BASE_URL}images/aditya.jpeg`}
   alt="Aditya"
 />
 
