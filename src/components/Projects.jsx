@@ -6,7 +6,7 @@ function Projects() {
       description:
         "A complete responsive NGO website with membership, gallery, donation and organization information.",
       tags: ["React", "Tailwind", "Firebase"],
-      image: "/projects/yuva-sarathi.png",
+      image: `${import.meta.env.BASE_URL}images/ngo.jpeg`,
       live: "https://yuva-sarathi-ngo.web.app",
       github: "#",
     },
@@ -16,7 +16,7 @@ function Projects() {
       description:
         "A modern admin dashboard for managing membership applications, members and website data.",
       tags: ["React", "Firebase", "Tailwind"],
-      image: "/projects/admin-portal.png",
+      image: `${import.meta.env.BASE_URL}images/admin.jpeg`,
       live: "#",
       github: "#",
     },
@@ -26,7 +26,7 @@ function Projects() {
       description:
         "A responsive membership application system connected with Firebase for storing applicant data.",
       tags: ["React", "Firebase", "JavaScript"],
-      image: "/projects/membership.png",
+      image: `${import.meta.env.BASE_URL}images/member.jpeg`,
       live: "#",
       github: "#",
     },
@@ -55,7 +55,10 @@ function Projects() {
         {/* Projects */}
         <div className="projects-grid">
           {projects.map((project) => (
-            <article className="premium-project-card" key={project.number}>
+            <article
+              className="premium-project-card"
+              key={project.number}
+            >
 
               {/* Image */}
               <div className="project-visual">
@@ -76,12 +79,14 @@ function Projects() {
                   View Project
                   <span>↗</span>
                 </div>
+
               </div>
 
               {/* Content */}
               <div className="project-content">
 
                 <div className="project-content-top">
+
                   <p className="project-label">
                     PROJECT {project.number}
                   </p>
@@ -91,6 +96,7 @@ function Projects() {
                   <p className="project-description">
                     {project.description}
                   </p>
+
                 </div>
 
                 {/* Technologies */}
@@ -106,6 +112,8 @@ function Projects() {
                   <a
                     href={project.live}
                     className="project-link primary-project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live Demo
                     <span>↗</span>
@@ -114,12 +122,15 @@ function Projects() {
                   <a
                     href={project.github}
                     className="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     GitHub
                     <span>↗</span>
                   </a>
 
                 </div>
+
               </div>
             </article>
           ))}
