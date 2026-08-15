@@ -8,7 +8,7 @@ function Projects() {
       tags: ["React", "Tailwind", "Firebase"],
       image: `${import.meta.env.BASE_URL}images/ngo.jpeg`,
       live: "https://yuva-sarathi-ngo.web.app",
-      github: "#",
+      github: "#https://github.com/aditya-1423/yuva-sarathi-ngo",
     },
     {
       number: "02",
@@ -17,8 +17,8 @@ function Projects() {
         "A modern admin dashboard for managing membership applications, members and website data.",
       tags: ["React", "Firebase", "Tailwind"],
       image: `${import.meta.env.BASE_URL}images/admin.jpeg`,
-      live: "#",
-      github: "#",
+      live: "https://aditya-1423.github.io/yuva-sarathi-admin-portal/",
+      github: "#https://github.com/aditya-1423/yuva-sarathi-admin-portal",
     },
     {
       number: "03",
