@@ -73,11 +73,26 @@ function Projects() {
                   className="project-image"
                 />
 
-                <div className="project-image-overlay" />
+
+ 
+
+               
+        
 
                 <div className="project-view">
-                  View Project
-                  <span>↗</span>
+
+                   <a
+                    href={project.live}
+                    className="project-link primary-project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Project
+                    <span>↗</span>
+                  </a>
+                   
+                  {/* View Project
+                  <span>↗</span> */}
                 </div>
 
               </div>
