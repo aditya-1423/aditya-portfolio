@@ -51,7 +51,19 @@ function Services() {
         ========================= */}
         <div className="services-header">
           <div className="services-heading">
-            <p className="services-label">Services</p>
+            {/* <p className="services-label">Services</p> */}
+
+            
+          <div className="skills-label-wrap">
+            <span className="skills-line"></span>
+
+            <p className="section-label skills-label">
+              Services
+            </p>
+
+            <span className="skills-line"></span>
+          </div>
+
 
             <h2 className="services-title">
               What I <span>can build.</span>

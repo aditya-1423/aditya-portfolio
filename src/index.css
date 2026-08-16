@@ -1009,7 +1009,7 @@ section {
 @media (max-width: 900px) {
 
   .hero-section {
-    min-height: 100vh;
+    min-height: 88vh;
 
     padding: 45px 18px 20px;
 
@@ -3354,6 +3354,7 @@ section {
    SERVICES
 ========================================================= */
 
+
 .services-section {
   position: relative;
 
@@ -5277,13 +5278,20 @@ section {
   /* Sections */
 
   #about,
-  #skills,
-  #projects,
-  #services,
-  #contact {
+  #skills
+  {
     padding: 0px 18px;
   }
-
+#projects {
+    padding: 10px 18px 0px 18px;
+  }
+  
+  #services {
+    padding: 50px 18px;
+  }
+    #contact {
+        padding: 0px 18px 30px 18px;
+    }
   .section-title {
     font-size: 40px;
 
@@ -5296,7 +5304,7 @@ section {
   #skills {
     padding-top: 75px;
 
-    padding-bottom: 75px;
+    padding-bottom: 60px;
   }
 
   #skills .mb-14 {

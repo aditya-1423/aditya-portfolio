@@ -7,6 +7,19 @@ function Hero() {
 
       <div className="hero-container">
 
+
+
+          {/* <div className="skills-label-wrap">
+            <span className="skills-line"></span>
+
+            <p className="section-label skills-label">
+              My Skills
+            </p>
+
+            <span className="skills-line"></span>
+          </div> */}
+
+
         {/* ================= LEFT CONTENT ================= */}
         <div className="hero-text">
 

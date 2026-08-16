@@ -203,11 +203,11 @@ function Skills() {
 
 
         {/* Bottom decoration */}
-        <div className="skills-bottom-decoration">
+        {/* <div className="skills-bottom-decoration">
           <span></span>
           <b>✦</b>
           <span></span>
-        </div>
+        </div> */}
 
       </div>
     </section>

@@ -15,7 +15,7 @@ const Contact = () => {
 
     // YOUR WHATSAPP NUMBER
     // Country code ke saath, + ya spaces ke bina
-    const whatsappNumber = "91XXXXXXXXXX";
+    const whatsappNumber = "9238022531";
 
     // WhatsApp message
     const whatsappMessage = `Hello Aditya,
@@ -45,9 +45,21 @@ ${message}`;
       <div className="contact-container">
 
         {/* LEFT SIDE */}
+        
+            <div className="skills-label-wrap">
+            <span className="skills-line"></span>
+
+            <p className="section-label skills-label">
+              CONTACT
+            </p>
+
+            <span className="skills-line"></span>
+          </div>
         <div className="contact-content">
 
-          <div className="section-label">CONTACT</div>
+          {/* <div className="section-label">CONTACT</div> */}
+
+
 
           <h2 className="contact-title">
             Have an idea?

@@ -30,9 +30,18 @@ const About = () => {
         {/* RIGHT SIDE */}
         <div className="about-content">
 
-          <div className="section-label">
-            ABOUT ME
+<div className="skills-label-wrap">
+            <span className="skills-line"></span>
+
+            <p className="section-label skills-label">
+              ABOUT ME
+            </p>
+
+            <span className="skills-line"></span>
           </div>
+          {/* <div className="section-label">
+            ABOUT ME
+          </div> */}
 
           <h2 className="about-title">
             Building with <span>purpose.</span>

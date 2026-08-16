@@ -37,9 +37,24 @@ function Projects() {
       <div className="projects-container">
 
         {/* Header */}
+
+           <div className="skills-label-wrap">
+            <span className="skills-line"></span>
+
+            <p className="section-label skills-label">
+              MY WORK
+            </p>
+
+            <span className="skills-line"></span>
+          </div>
         <div className="projects-header">
           <div>
-            <p className="section-label">My Work</p>
+            {/* <p className="section-label">My Work</p> */}
+
+            
+         
+
+
 
             <h2 className="projects-title">
               Featured <span>Projects</span>
