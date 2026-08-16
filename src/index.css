@@ -5243,7 +5243,7 @@ section {
   /* Hero */
 
   .hero-section {
-    padding: 105px 18px 70px;
+    padding: 105px 18px 0px;
   }
 
   .hero-text h1 {

@@ -13,8 +13,30 @@ const Contact = () => {
       return;
     }
 
-    alert("Thanks! Your message has been submitted.");
+    // YOUR WHATSAPP NUMBER
+    // Country code ke saath, + ya spaces ke bina
+    const whatsappNumber = "91XXXXXXXXXX";
 
+    // WhatsApp message
+    const whatsappMessage = `Hello Aditya,
+
+I found your portfolio and would like to discuss a project.
+
+Name: ${name}
+Email: ${email}
+
+Message:
+${message}`;
+
+    // WhatsApp URL
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      whatsappMessage
+    )}`;
+
+    // Open WhatsApp
+    window.open(whatsappURL, "_blank");
+
+    // Reset form
     e.target.reset();
   };
 
@@ -42,7 +64,7 @@ const Contact = () => {
 
             {/* EMAIL */}
             <a
-              href="mailto:your@email.com"
+              href="mailto:adityaverma1325@gmail.com"
               className="contact-link"
             >
               <div className="contact-link-icon">@</div>
@@ -119,6 +141,7 @@ const Contact = () => {
                 placeholder="Your name"
                 className="contact-input"
                 autoComplete="name"
+                required
               />
             </div>
 
@@ -133,6 +156,7 @@ const Contact = () => {
                 placeholder="your@email.com"
                 className="contact-input"
                 autoComplete="email"
+                required
               />
             </div>
 
@@ -146,6 +170,7 @@ const Contact = () => {
                 rows="5"
                 placeholder="Tell me about your project..."
                 className="contact-input contact-textarea"
+                required
               />
             </div>
 
@@ -165,7 +190,5 @@ const Contact = () => {
     </section>
   );
 };
-
-
 
 export default Contact;

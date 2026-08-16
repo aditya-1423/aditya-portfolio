@@ -11,7 +11,7 @@ const Footer = () => {
           {/* BRAND */}
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
-              Aditya<span>.</span>
+              Aditya Verma<span>...</span>
             </a>
 
             <p>
@@ -65,10 +65,12 @@ const Footer = () => {
               <span>↗</span>
             </a>
 
-            <a href="adityaverma1325@gmail.com">
+            {/* <a href="adityaverma1325@gmail.com"
+            >
+              
               Email
               <span>↗</span>
-            </a>
+            </a> */}
           </div>
 
 

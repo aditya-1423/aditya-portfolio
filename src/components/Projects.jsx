@@ -79,7 +79,7 @@ function Projects() {
                
         
 
-                <div className="project-view">
+                {/* <div className="project-view">
 
                    <a
                     href={project.live}
@@ -91,9 +91,8 @@ function Projects() {
                     <span>↗</span>
                   </a>
                    
-                  {/* View Project
-                  <span>↗</span> */}
-                </div>
+                 
+                </div> */}
 
               </div>
 
@@ -130,7 +129,7 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Live Demo
+                    View Project
                     <span>↗</span>
                   </a>
 
